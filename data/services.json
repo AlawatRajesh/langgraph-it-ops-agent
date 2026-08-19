@@ -1,0 +1,29 @@
+{
+    "payment-service": {
+        "service": "payment-service",
+        "status": "healthy",
+        "cpu": 35,
+        "memory": 45,
+        "error_rate": 0.2,
+        "version": "2.4.1",
+        "restart_allowed": true
+    },
+    "auth-service": {
+        "service": "auth-service",
+        "status": "healthy",
+        "cpu": 35,
+        "memory": 48,
+        "error_rate": 0.2,
+        "version": "1.8.3",
+        "restart_allowed": true
+    },
+    "notification-service": {
+        "service": "notification-service",
+        "status": "healthy",
+        "cpu": 41,
+        "memory": 52,
+        "error_rate": 0.4,
+        "version": "3.1.0",
+        "restart_allowed": false
+    }
+}
